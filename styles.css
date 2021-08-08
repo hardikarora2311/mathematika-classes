@@ -2,7 +2,12 @@ body {
     margin: 0px;
 }
 
+:root {
 
+    --primary-color: #393185;
+}
+
+/* branding header */
 .branding{
     display: flex;
     flex-direction: row;
@@ -36,10 +41,16 @@ body {
     flex-direction: column;
 }
 
+.nav-text h3{
+    color: var(--primary-color);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+}
+
 .logo{
     width: 120px;
     height: 120px;
-    margin: 2em;
     margin-right: 0.5em;
 }
 
@@ -49,4 +60,30 @@ body {
     margin: 1em;
     margin-top: 1.7em;
 
+}
+
+/* nav bar */
+
+
+.nav-bar{
+    background-color: black;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.non-bullet{
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0em 1.5em;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
 }
