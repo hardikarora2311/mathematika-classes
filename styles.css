@@ -1,6 +1,6 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400&display=swap');
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -110,5 +110,87 @@ body {
 
 .link{
     text-decoration: none;
+    color: white;
+}
+
+
+/* about section */
+
+.about{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    margin: 3em auto;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.about-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+
+}
+.about-text h2{
+    margin-left: 0.5em;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+.about-text p{
+    color: #8d778d;
+}
+
+.vl-blue{
+    border-left: 5px solid var(--primary-color);
+    height: 38px;
+    position: absolute;
+    margin: 0 0.3em;
+    top: 15px;
+    left: 1px;
+}
+
+.primary-link{
+    background-color: black;
+    width: 110px;
+    text-decoration: none;
+    color: white;
+    border-radius:  0.8em;
+    padding: 1em;
+    text-align: center;
+}
+
+.about-courses{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto auto;
+    margin: 2em;
+
+}
+.course-icons{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2em;
+}
+.blue-div{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+}
+.black-div{
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
