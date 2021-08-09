@@ -237,17 +237,26 @@ body {
 
 
 .people{
-    background-color: white;
+    background-color: var(--gray-background);
     display: flex;
     flex-direction: column;
     width: 200px;
     height: 200px;
+    align-items: center;
     margin: 1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow:  0 0 20px 0 rgb(0 0 0 / 90%);
+}
+.people hr{
+    background-color: black;
+    width: 80%;
+    height: 1.5px;
 }
 
 .people-pic{
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
 }
 
 
@@ -255,7 +264,7 @@ body {
 .testimonials{
     flex-direction: column;
     justify-content: flex-start;
-    height: 500px;
+    height: 510px;
     /* display: contents; */
 }
 
