@@ -112,6 +112,15 @@ body {
     text-decoration: none;
     color: white;
 }
+ /* slider */
+ .slider{
+    width: 100%;
+ }
+
+ .mySlides{
+    width: 100%;
+ }
+
 
 
 /* about section */
