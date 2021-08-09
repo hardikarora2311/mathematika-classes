@@ -250,6 +250,14 @@ body {
     width: 120px;
 }
 
+
+/* testimonials */
+.testimonials{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+}
+
 /* footer */
 
 .footer{
@@ -276,3 +284,4 @@ body {
     color: white;
     margin: 3em;
 }
+
