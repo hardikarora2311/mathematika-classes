@@ -203,3 +203,54 @@ body {
     justify-content: center;
     color: white;
 }
+
+/* results section */
+
+.results{
+    background-color: var(--primary-color);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-text{
+    position: relative;
+    margin-left: 7em;
+}
+
+.vl-black{
+    border-left: 5px solid black;
+    height: 40px;
+    position: absolute;
+    top: 48px;
+    left: 8px;
+}
+
+
+
+.images{
+    display: flex;
+    align-self: center;
+}
+
+.people{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+}
+
+.people-pic{
+    height: 120px;
+    width: 120px;
+}
+
+.result-text h2{
+    margin-left: 0.5em;
+    font-size: 40px;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
