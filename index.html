@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathematika Classes</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -61,7 +62,7 @@
         <img class="mySlides" src="/images/slider-1.jpg">
         <img class="mySlides" src="/images/slider-2.jpg">
     </header>
-    <section class="about">
+    <section class="section-white">
         <div class="about-text">
             <div class="vl-blue"></div>
             <h2>About Us</h2>
@@ -92,20 +93,34 @@
             <div class="vl-black"></div>
             <h2>Results</h2>
         </div>
-        <div class="images">
-            <div class="people"></div>
-            <div class="people"></div>
-            <div class="people"></div>
-            <div class="people"></div>
-            <div class="people"></div>
-            <!-- <div class="people"></div> -->
-            <!-- <div class="people"></div>
-            <div class="people"></div> -->
-        </div>
-
-        <!-- <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="display-right" onclick="plusDivs(+1)">&#10095;</button> -->
+        <div class="main-carousel images" data-flickity='{"wrapAround": true, "autoPlay": true}'>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+            <div class="carousel-cell people">...</div>
+          </div>
     </section>
+    <section class="section-white"></section>
+    <footer class="footer">
+        <div class="footer-about">
+            <img src="/logo/logo-blue.png" class="logo">
+            <p>Established in the year 1995, Mathematika Classes has been instrumental in numerous success stories. Tuition classes are really</p>
+        </div>
+        <div class="address-info">
+            <h2>Address Info</h2>
+            <p>Shobha Shyam Tower 2 Floor, General Mahadev Singh Rd.</p><hr>
+            <p>Dehradun, Uttarakhand 248001</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Info</h2>
+            <span>+91 80570 00373</span><hr>
+            <span>info@mathematikaclasses.in</span>
+        </div>
+    </footer>
     <script src="app.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

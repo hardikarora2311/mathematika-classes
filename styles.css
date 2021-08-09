@@ -125,7 +125,7 @@ body {
 
 /* about section */
 
-.about{
+.section-white{
     display: flex;
     background-color: white;
     width: 80%;
@@ -211,28 +211,30 @@ body {
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .result-text{
     position: relative;
     margin-left: 7em;
+    margin-top: 0.5em;
 }
 
 .vl-black{
     border-left: 5px solid black;
-    height: 40px;
+    height: 45px;
     position: absolute;
-    top: 48px;
+    top: 43px;
     left: 8px;
 }
-
-
-
-.images{
-    display: flex;
-    align-self: center;
+.result-text h2{
+    margin-left: 0.5em;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0.2em;
+    font-family: 'Martel Sans', sans-serif;
 }
+
 
 .people{
     background-color: white;
@@ -248,9 +250,29 @@ body {
     width: 120px;
 }
 
-.result-text h2{
-    margin-left: 0.5em;
-    font-size: 40px;
+/* footer */
+
+.footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+}
+
+.footer-about{
+    display: flex;
+    flex-direction: column;
     color: white;
-    font-family: 'Martel Sans', sans-serif;
+    margin: 3em;
+    width: 400px;
+}
+
+.address-info{
+    color: white;
+    margin: 3em 0;
+    width: 400px;
+}
+
+.contact-info{
+    color: white;
+    margin: 3em;
 }
