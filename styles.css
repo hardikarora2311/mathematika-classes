@@ -255,7 +255,12 @@ body {
 .testimonials{
     flex-direction: column;
     justify-content: flex-start;
-    height: 600px;
+    height: 500px;
+    /* display: contents; */
+}
+
+.test{
+    margin-bottom: 0;
 }
 
 /* footer */
@@ -274,11 +279,21 @@ body {
     width: 400px;
 }
 
+.footer-logo{
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 28px;
+}
+
 .address-info{
     color: white;
     margin: 3em 0;
     width: 400px;
+
 }
+
 
 .contact-info{
     color: white;
