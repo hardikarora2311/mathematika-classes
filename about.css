@@ -7,9 +7,10 @@
 
 .about-page{
     color: var(--section-text);
-    height: 700px;
+    height: 720px;
     flex-direction: column;
     justify-content: center;
+    box-shadow:  0 0 20px 0 rgb(0 0 0 / 40%);
 }
 
 .about-pic{
@@ -27,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     font-size: larger;
-    margin: 1em 2em;
+    margin: 0 2em;
     margin-bottom:0 ;
     text-align: justify;
 }
@@ -37,6 +38,10 @@
 
 .sir-image{
     position: relative;
+}
+
+.page{
+    margin: 2em 2em 0 2em;
 }
 
 .sir-info{
@@ -50,3 +55,4 @@
     padding: 0.7em;
     box-shadow:  0 0 50px 0 rgb(0 0 0 / 50%);
 }
+
