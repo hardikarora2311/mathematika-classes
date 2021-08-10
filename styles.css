@@ -11,6 +11,9 @@ body {
 
     --primary-color: #393185;
     --gray-background: #ececec;
+    --section-text: #8d778d;
+    --nav-bg: #080808fc;
+    --title-bg:#272727fc;
 }
 
 /* branding header */
@@ -91,7 +94,7 @@ body {
 
 
 .nav-bar{
-    background-color: black;
+    background-color: var(--nav-bg);
     height: 55px;
     display: flex;
     flex-direction: row;
@@ -133,6 +136,9 @@ body {
     margin: 3em auto;
     justify-content: space-between;
     flex: 1;
+    border-radius: 0.5em;
+    /* box-shadow:  0 0 20px 0 rgb(0 0 0 / 20%); */
+
 }
 
 .about-text{
@@ -150,7 +156,7 @@ body {
     font-family: 'Martel Sans', sans-serif;
 }
 .about-text p{
-    color: #8d778d;
+    color: var(--section-text);
 }
 
 .vl-blue{
@@ -309,3 +315,23 @@ body {
     margin: 3em;
 }
 
+
+/* page titles bar */
+
+.title{
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0.5em 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 0 30px 0 rgb(0 0 0 / 60%);
+
+}
+
+.title span{
+    font-size: 2rem;
+    margin-left: 4.5em;
+    font-weight: 500;
+
+}
