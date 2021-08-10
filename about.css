@@ -7,7 +7,7 @@
 
 .about-page{
     color: var(--section-text);
-    height: 720px;
+    height: 750px;
     flex-direction: column;
     justify-content: center;
     box-shadow:  0 0 20px 0 rgb(0 0 0 / 40%);
