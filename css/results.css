@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.slider-main, .slider-adv{
+.slider-adv, .slider-main{
     display: none;
 }
 
