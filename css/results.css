@@ -5,13 +5,34 @@
 
 .selection-bar{
     display: flex;
+    margin-left: 1em;
 }
 
 .bar-pills{
     font-size: 1.5em;
     font-weight: 600;
     cursor: pointer;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 0.4em;
+    margin: 0 1em;
 }
+.bar-pills hr{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 35px;
+    height: 5px;
+}
+
+
+.bar-pills:hover{
+    background-color: var(--nav-bg);
+    color: white;
+    font-weight: 500;
+}
+
+
 
 .slider-adv, .slider-main{
     display: none;

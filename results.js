@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", function(){
     var boardSec= document.querySelector(".slider-board")
     var mainsSec= document.querySelector(".slider-main")
     var advSec= document.querySelector(".slider-adv")
+
+    var board= document.querySelector("#board > hr")
+    var main= document.querySelector("#mains > hr")
+    var adv= document.querySelector("#adv> hr")
+
     
 
 
@@ -15,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function(){
         advSec.style.display="none"
         var flkty = new Flickity(".slider-board > .images");
         flkty.resize();
+        board.style.backgroundColor="var(--primary-color)"
+        main.style.backgroundColor="white"
+        adv.style.backgroundColor="white"
     })
     
     
@@ -24,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function(){
         advSec.style.display="none"
         var flkty = new Flickity(".slider-main> .images");
         flkty.resize();
+        main.style.backgroundColor="var(--primary-color)"
+        board.style.backgroundColor="white"
+        adv.style.backgroundColor="white"
     })
 
     advBtn.addEventListener("click", function(){
@@ -32,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function(){
         advSec.style.display="block"
         var flkty = new Flickity( ".slider-adv > .images");
         flkty.resize();
+        adv.style.backgroundColor="var(--primary-color)"
+        main.style.backgroundColor="white"
+        board.style.backgroundColor="white"
     })
 
 })
