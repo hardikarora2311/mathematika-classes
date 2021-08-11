@@ -71,11 +71,14 @@
         </div>
         <div class="form-sec">
 			<span>Get In Touch</span>
-            <form class="form">
-				<input placeholder="Name" class="name inputs" type="text">
-                <input placeholder="Mobile No." class="number inputs" type="tel" >
-				<input placeholder="Email" class="email-form inputs" type="text">
-				<textarea placeholder="Message" class="message inputs"></textarea>
+            <form class="form" action="https://formsubmit.co/hardikarora826@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New form submission!">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+				<input placeholder="Name" class="name inputs" type="text" name="name" required>
+                <input placeholder="Mobile No." class="number inputs" type="tel" name="mobile" required>
+				<input placeholder="Email" class="email-form inputs" type="text" name="email" required>
+				<textarea placeholder="Message" class="message inputs" name="message" required></textarea>
 				<button type="submit" class="submit-btn">Send Message</button>
 			</form>
         </div>
