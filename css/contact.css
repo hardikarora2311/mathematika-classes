@@ -1,0 +1,75 @@
+.contact-page{
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map{
+    padding: 2em;
+    position: relative;
+}
+
+.form-sec{
+    position: absolute;
+    background-color: #fafafa;
+    height: 450px;
+    flex-direction: column;
+    width: 800px;
+    top: 700px;
+    border-radius: 0.2em;
+    text-align: center;
+    padding: 1em;
+    box-shadow:  0 0 20px 0 rgb(0 0 0 / 20%);
+
+}
+
+.form-sec span{
+    font-size: 30px;
+    padding: 1em 1em 0.2em 1em;
+    margin-bottom: 6em;
+    color: #777;
+    font-weight: 600;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+}
+
+.inputs{
+    margin: 1em 2em;
+    background-color:white ;
+    padding: 1em;
+    border: 1px solid  #ccc;
+    border-radius: 0.5em;
+}
+
+.email{
+    width: 750px;
+}
+
+.message{
+    width: 750px;
+    height: 120px;
+    resize: none;
+}
+
+.number, .name{
+    flex: 1;
+}
+
+.submit-btn{
+    margin: 0.3em 1.9em;
+    padding: 1em;
+    background-color:#222222 ;
+    color: #ffffff;
+    border: none;
+    width: 165px;
+    font-size: 16px;
+    height: 50px ;
+    cursor: pointer;
+    border-radius: 0.5em;
+}

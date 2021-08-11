@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function(){
         board.style.backgroundColor="var(--primary-color)"
         main.style.backgroundColor="white"
         adv.style.backgroundColor="white"
+        boardBtn.classList.add("hover")
+        mainsBtn.classList.remove("hover")
+        advBtn.classList.remove("hover")
     })
     
     
@@ -35,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function(){
         main.style.backgroundColor="var(--primary-color)"
         board.style.backgroundColor="white"
         adv.style.backgroundColor="white"
+        boardBtn.classList.remove("hover")
+        mainsBtn.classList.add("hover")
+        advBtn.classList.remove("hover")
     })
 
     advBtn.addEventListener("click", function(){
@@ -46,6 +52,9 @@ document.addEventListener("DOMContentLoaded", function(){
         adv.style.backgroundColor="var(--primary-color)"
         main.style.backgroundColor="white"
         board.style.backgroundColor="white"
+        boardBtn.classList.remove("hover")
+        mainsBtn.classList.remove("hover")
+        advBtn.classList.add("hover")
     })
 
 })
