@@ -33,7 +33,7 @@
     text-align: justify;
 }
 .info p{
-    margin-right: 1.5em;
+    margin-left: 1.5em;
 }
 
 .sir-image{
@@ -41,7 +41,7 @@
 }
 
 .page{
-    margin: 2em 2em 0 2em;
+    margin: 2em 2em 0.5em 2em;
 }
 
 .sir-info{
