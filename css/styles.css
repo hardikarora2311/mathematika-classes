@@ -115,12 +115,17 @@ body {
     color: white;
 }
  /* slider */
- .slider{
+
+
+ /* .slider{
     width: 100%;
- }
+ } */
 
  .mySlides{
-    width: 100%;
+    height: 400px;
+ }
+ .carousel-cell{
+     margin: 0 1em;
  }
 
 
