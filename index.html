@@ -112,8 +112,28 @@
             <div class="vl-blue"></div>
             <h2>Our Testimonials</h2>
         </div>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-ee3f694f-c7f2-44b9-9a68-6de88ebb3936"></div>
+        <div id="google-reviews"></div>
+
+        <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB0xM28G1bqjKSPNeWWM5lWFeGgXrk259w&signed_in=true&libraries=places"></script>
+
+        <script>
+        jQuery(document).ready(function( $ ) {
+            $("#google-reviews").googlePlaces({
+                 placeId: 'ChIJY0Vw21UrCTkRRcPaND4TtxU' //Find placeID @: https://developers.google.com/places/place-id
+                , render: ['reviews']
+                , min_rating: 4
+                , max_rows:4
+           });
+        });
+        </script>
+        <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-ee3f694f-c7f2-44b9-9a68-6de88ebb3936"></div> -->
+
+        <!-- <script src="https://googlereviews.cws.net/google-reviews.js"></script><br />
+        <script>load_google_reviews("ChIJY0Vw21UrCTkRRcPaND4TtxU");</script> -->
     </section>
     <footer class="footer">
         <div class="footer-desc">
