@@ -94,7 +94,7 @@ body {
 
 .nav-bar{
     background-color: var(--nav-bg);
-    height: 55px;
+    height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,12 +117,13 @@ body {
  /* slider */
 
 
- /* .slider{
-    width: 100%;
- } */
+ .slider{
+    margin-bottom: 2em;
+ }
 
  .mySlides{
-    height: 400px;
+    height: 460px;
+    width: 1100px
  }
  .carousel-cell{
      margin: 0 1em;
@@ -162,6 +163,7 @@ body {
 }
 .about-text p{
     color: var(--section-text);
+    font-size: large;
 }
 
 .vl-blue{
@@ -285,12 +287,12 @@ body {
 .testimonials{
     flex-direction: column;
     justify-content: flex-start;
-    height: 510px;
+    height: 450px;
     /* display: contents; */
 }
 
 .test{
-    margin-bottom: 0;
+    margin-bottom: 1.5em;
 }
 
 /* footer */
