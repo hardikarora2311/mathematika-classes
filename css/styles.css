@@ -99,7 +99,7 @@ body {
         padding: 2em 0;
     }
     .brand div{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .phone{
@@ -110,7 +110,7 @@ body {
         margin-left: 0;
     }
     .branding{
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
@@ -522,8 +522,8 @@ body {
         text-align: center;
     }
     .logo{
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 }
 
