@@ -153,6 +153,9 @@ body {
     text-decoration: none;
     color: white;
 }
+.link-active{
+    font-weight: bolder;
+}
 
 /* hamburger */
 
@@ -169,6 +172,7 @@ body {
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
