@@ -103,7 +103,7 @@ body {
     }
 
     .phone{
-        padding: 0 0.6em;
+        padding: 0 1.2em;
     }
     .brand{
         padding: 2em 0;
@@ -111,6 +111,10 @@ body {
     }
     .branding{
         justify-content: flex-start;
+    }
+    .icons{
+        height: 30px;
+        width: 30px;
     }
 }
 
