@@ -410,6 +410,13 @@ body {
     .result-text{
         margin-left: 2em;
     }
+    .result-text h2{
+        font-size: 34px;
+    }
+    .result-text .vl-black{
+        top: 38px;
+        height: 36px;
+    }
 }
 
 
@@ -426,11 +433,12 @@ body {
 }
 
 @media only screen and (max-width: 768px){
-    .test h2{
+    .about-text h2{
         font-size: 30px;
     }
 
-    .test .vl-blue{
+
+    .about-text .vl-blue{
         top: 7px;
         height: 35px;
     }
