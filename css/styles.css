@@ -532,6 +532,10 @@ body {
         height: 60px;
     }
 
+    .footer-about{
+        margin: 3em 0 0 3em;
+    }
+
     .footer-logo{
         font-size: 20px;
         margin: auto;
