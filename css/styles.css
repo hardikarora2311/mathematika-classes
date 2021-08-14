@@ -123,7 +123,7 @@ body {
 @media only screen and (min-width: 769px) and (max-width: 1024px){
     .contact{
         margin-right: 0;
-        padding: 2em 2em 2em 0;
+        padding: 2em 0;
     }
 }
 
