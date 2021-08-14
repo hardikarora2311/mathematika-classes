@@ -406,6 +406,12 @@ body {
     width: 140px;
 }
 
+@media only screen and (max-width: 768px){
+    .result-text{
+        margin-left: 2em;
+    }
+}
+
 
 /* testimonials */
 .testimonials{
@@ -417,6 +423,17 @@ body {
 
 .test{
     margin-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 768px){
+    .test h2{
+        font-size: 30px;
+    }
+
+    .test .vl-blue{
+        top: 7px;
+        height: 35px;
+    }
 }
 
 /* footer */
