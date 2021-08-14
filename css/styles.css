@@ -146,7 +146,6 @@ body {
         flex-direction: column;
         background-color: var(--nav-bg);
         width: 100%;
-        border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         align-items: center;
