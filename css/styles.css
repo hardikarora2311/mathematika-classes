@@ -108,9 +108,10 @@ body {
     .brand{
         padding: 2em 0;
         margin-left: 0;
+        flex-direction: column;
     }
     .branding{
-        justify-content: flex-start;
+        justify-content: center;
     }
     .icons{
         height: 30px;
