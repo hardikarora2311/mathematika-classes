@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400&display=swap');
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--gray-background);
@@ -96,6 +96,11 @@ body {
     }
     .contact{
         margin-right: 0;
+        padding: 2em 0;
+    }
+
+    .phone{
+        padding: 0 0.6em;
     }
     .brand{
         padding: 2em 0;
