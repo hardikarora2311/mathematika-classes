@@ -209,7 +209,7 @@ body {
 
  .mySlides{
     height: 460px;
-    width: 90vw;
+    width: 100vw;
  }
  .carousel-cell{
      margin: 0 1em;
