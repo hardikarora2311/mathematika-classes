@@ -209,7 +209,7 @@ body {
 
  .mySlides{
     height: 460px;
-    width: 1100px
+    width: 90vw;
  }
  .carousel-cell{
      margin: 0 1em;
@@ -218,7 +218,7 @@ body {
  @media only screen and (max-width: 768px){
      .mySlides{
         height: 420px;
-        width: 365px;
+        width: 100vw;
      }
  }
 
@@ -229,7 +229,7 @@ body {
     display: flex;
     background-color: white;
     width: 80%;
-    height: 400px;
+    height: auto;
     margin: 3em auto;
     justify-content: space-between;
     flex: 1;
@@ -321,10 +321,10 @@ body {
 @media only screen and (max-width: 768px){
     .section-white{
         flex-direction: column;
-        height: 1200px;
+        height: auto;
         width: 90%;
         justify-content: flex-start;
-    box-shadow:  0 0 15px 0 rgb(0 0 0 / 15%);
+        box-shadow:  0 0 15px 0 rgb(0 0 0 / 15%);
 
     }
     .about-courses{
@@ -424,7 +424,7 @@ body {
 .testimonials{
     flex-direction: column;
     justify-content: flex-start;
-    height: 450px;
+    height: auto;
     /* display: contents; */
 }
 
