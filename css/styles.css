@@ -235,7 +235,6 @@ body {
     flex: 1;
     border-radius: 0.5em;
     /* box-shadow:  0 0 20px 0 rgb(0 0 0 / 20%); */
-
 }
 
 .about-text{
@@ -318,6 +317,39 @@ body {
     justify-content: center;
     color: white;
 }
+
+@media only screen and (max-width: 768px){
+    .section-white{
+        flex-direction: column;
+        height: 1200px;
+        width: 90%;
+        justify-content: flex-start;
+    box-shadow:  0 0 15px 0 rgb(0 0 0 / 15%);
+
+    }
+    .about-courses{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-courses span{
+        margin-bottom: 1em;
+    }
+    .course-icons{
+        margin: 1em 0;
+    }
+
+    .blue-div,.black-div{
+        width: 100%;
+    }
+    .about-courses div:nth-child(3){
+        background-color: var(--primary-color);
+    }
+    .about-courses div:nth-child(4){
+        background-color: black;
+    }
+}
+
+
 
 /* results section */
 
