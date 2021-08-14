@@ -482,7 +482,7 @@ body {
     flex-direction: column;
     color: white;
     margin: 3em 3em 0 3em;
-    width: 400px;
+    width: 72%;
 }
 
 .copyright{
@@ -525,6 +525,10 @@ body {
         justify-content: center;
     }
 
+    .address-info{
+        width: 72%;
+    }
+
     .address-info, .contact-info{
         text-align: center;
     }
@@ -534,7 +538,7 @@ body {
     }
 
     .footer-about{
-        margin: 3em 0 0 3em;
+        margin: 3em 0 0 0;
     }
 
     .footer-logo{
