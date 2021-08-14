@@ -531,6 +531,11 @@ body {
         width: 60px;
         height: 60px;
     }
+
+    .footer-logo{
+        font-size: 20px;
+        margin: auto;
+    }
 }
 
 
