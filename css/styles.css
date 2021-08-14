@@ -89,6 +89,26 @@ body {
     margin: 0 0.3em;
 }
 
+@media only screen and (max-width: 768px){
+    .contact, .email{
+        display: none;
+    }
+    .brand{
+        padding: 2em 0;
+        margin-left: 0;
+    }
+    .branding{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .contact{
+        margin-right: 0;
+        padding: 2em 2em 2em 0;
+    }
+}
+
 /* nav bar */
 
 
@@ -195,6 +215,12 @@ body {
      margin: 0 1em;
  }
 
+ @media only screen and (max-width: 768px){
+     .mySlides{
+        height: 420px;
+        width: 365px;
+     }
+ }
 
 
 /* about section */
