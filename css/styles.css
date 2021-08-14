@@ -484,6 +484,7 @@ body {
     color: white;
     margin: 3em 3em 0 3em;
     width: 70%;
+    flex: 1;
 }
 
 .copyright{
