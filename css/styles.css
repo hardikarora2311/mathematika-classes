@@ -5,13 +5,16 @@ body {
     overflow-x: hidden !important;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Martel Sans', sans-serif; */
     background-color: var(--gray-background);
 }
 
 :root {
 
     --primary-color: #393185;
+    --primary-color: #1D4ED8;
     --gray-background: #ececec;
+    /* --gray-background: white; */
     --section-text: #8d778d;
     --nav-bg: #212220;
 }
@@ -131,7 +134,7 @@ body {
 
 
 .nav-bar{
-    background-color: var(--nav-bg);
+    background-color: var(--primary-color);
     height: 65px;
     display: flex;
     flex-direction: row;
@@ -152,9 +155,11 @@ body {
 .link{
     text-decoration: none;
     color: white;
+    /* font-weight: bold; */
 }
 .link-active{
     font-weight: bolder;
+
 }
 
 /* hamburger */
@@ -232,7 +237,7 @@ body {
 
  .mySlides{
     height: 70vh;
-    width: 100vw;
+    width: 80vw;
  }
  .carousel-cell{
      margin: 0 1em;
@@ -276,8 +281,9 @@ body {
     font-family: 'Martel Sans', sans-serif;
 }
 .about-text p{
-    color: var(--section-text);
-    font-size: large;
+    color: #1E40AF    ;
+    font-size:large;
+    text-align: justify;
 }
 
 .vl-blue{
@@ -333,7 +339,7 @@ body {
 }
 .black-div{
     cursor: pointer;
-    background-color: black;
+    background-color: #212220;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,7 +476,7 @@ body {
 /* footer */
 
 .footer{
-    background-color: black;
+    background-color: #1b1b1b;
     height: auto;
     display: flex;
     align-items: center;
