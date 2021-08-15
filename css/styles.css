@@ -241,7 +241,7 @@ body {
  @media only screen and (max-width: 768px){
      .mySlides{
         height: 50vh;
-        width: 100vw;
+        width: 90vw;
      }
  }
 
