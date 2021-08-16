@@ -5,17 +5,17 @@ body {
     overflow-x: hidden !important;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     background-color: var(--gray-background);
 }
 
 :root {
 
-    --primary-color: #393185;
+    /* --primary-color: #393185; */
     --primary-color: #1D4ED8;
-    --gray-background: #ececec;
-    /* --gray-background: white; */
-    --section-text: #8d778d;
+    /* --gray-background: #ececec; */
+    --gray-background: white;
+    /* --section-text: #8d778d; */
+    --section-text: #0c1a46;
     --nav-bg: #212220;
 }
 
@@ -65,15 +65,15 @@ body {
 }
 
 .nav-text h3{
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     margin-top: 1em;
     margin-bottom: 0.5em;
 
 }
 
 .logo{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     margin-right: 0.5em;
 }
 
@@ -262,7 +262,7 @@ body {
     justify-content: space-between;
     flex: 1;
     border-radius: 0.5em;
-    /* box-shadow:  0 0 20px 0 rgb(0 0 0 / 20%); */
+    box-shadow:  0 0 15px 0 rgb(0 0 0 / 15%);
 }
 
 .about-text{
@@ -281,7 +281,8 @@ body {
     font-family: 'Martel Sans', sans-serif;
 }
 .about-text p{
-    color: #1E40AF    ;
+    color: #0c1a46;
+    letter-spacing: 1.5px;
     font-size:large;
     text-align: justify;
 }
@@ -374,7 +375,7 @@ body {
         background-color: var(--primary-color);
     }
     .about-courses div:nth-child(4){
-        background-color: black;
+        background-color: #212220;
     }
 }
 
@@ -476,7 +477,7 @@ body {
 /* footer */
 
 .footer{
-    background-color: #1b1b1b;
+    background-color: #111111;
     height: auto;
     display: flex;
     align-items: center;
