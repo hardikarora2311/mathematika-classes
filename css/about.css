@@ -1,13 +1,8 @@
-:root {
 
-    --primary-color: #393185;
-    --gray-background: #ececec;
-    --section-text: #8d778d;
-}
 
 .about-page{
     color: var(--section-text);
-    height: 750px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     box-shadow:  0 0 20px 0 rgb(0 0 0 / 40%);
@@ -25,19 +20,24 @@
 }
 
 .info{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     font-size: larger;
     margin: 0 2em;
     margin-bottom:0 ;
     text-align: justify;
 }
 .info p{
-    margin-left: 1.5em;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    
 }
 
 .sir-image{
     position: relative;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 5em;
 }
 
 .page{
