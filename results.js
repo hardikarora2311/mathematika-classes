@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     boardBtn.addEventListener("click", function(){
-        boardSec.style.display="block"
+        boardSec.style.display="flex"
         mainsSec.style.display="none"
         advSec.style.display="none"
         var flkty = new Flickity(".slider-board > .images");
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
     mainsBtn.addEventListener("click", function(){
         boardSec.style.display="none"
-        mainsSec.style.display="block"
+        mainsSec.style.display="flex"
         advSec.style.display="none"
         var flkty = new Flickity(".slider-main> .images");
         flkty.resize();
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(){
     advBtn.addEventListener("click", function(){
         boardSec.style.display="none"
         mainsSec.style.display="none"
-        advSec.style.display="block"
+        advSec.style.display="flex"
         var flkty = new Flickity( ".slider-adv > .images");
         flkty.resize();
         adv.style.backgroundColor="var(--primary-color)"
