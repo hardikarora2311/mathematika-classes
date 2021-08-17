@@ -1,6 +1,7 @@
 .result{
     flex-direction: column;
     justify-content: space-around;
+    height: auto;
 }
 
 .selection-bar{
@@ -43,12 +44,46 @@
 .slider-adv, .slider-main{
     display: none;
 }
+.people{
+    width: 120px;
+    height: auto;
+    box-shadow:  0 0 15px 0 rgb(0 0 0 / 50%);
+    border-radius: 0;
+    background-color: #ececec;
+    justify-content: center;
+
+}
 
 .result-page{
+    background-color: white;
     box-shadow:  0 0 15px 0 rgb(0 0 0 / 25%);
+    height: auto;
+    width: 50%;
+    padding: 1em;
+    justify-content: center;
+    border-radius: 0.5em;
+
+}
+
+.result-page> span{
+    font-size: 1.8em;
+    color: var(--section-text);
+}
+
+
+
+.people-pic{
+    width: 80px;
+    height: 80px;
 }
 
 .slider-main, .slider-adv, .slider-board{
     border: 2px solid var(--gray-background);
     padding: 2em;
+}
+
+.sec-photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
