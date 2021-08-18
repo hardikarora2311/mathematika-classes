@@ -55,6 +55,12 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 768px){
+    .people{
+        width: 100%;
+    }
+}
+
 /* .result-page{
     background-color: var(--primary-color);
     box-shadow:  0 0 15px 0 rgb(0 0 0 / 40%);
