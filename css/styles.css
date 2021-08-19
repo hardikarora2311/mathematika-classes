@@ -20,6 +20,8 @@ body {
 
 }
 
+
+
 /* branding header */
 .branding{
     display: flex;
@@ -143,6 +145,18 @@ body {
     align-items: center;
     width: 100%;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow:  0 0 15px 0 rgb(0 0 0 / 50%);
+}
+
+.sticky + .index-wrapper{
+    /* margin-top: 207px; */
+    padding-top: 100px;
+}
 .non-bullet{
     list-style: none;
     text-align: center;
@@ -201,7 +215,7 @@ body {
         text-align: center;
         transition: 0.3s;
         align-items: center;
-        z-index: 1;
+        z-index: 2;
         padding: 0;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -237,14 +251,16 @@ body {
 
  .slider{
     margin-bottom: 2em;
- }
+}
 
  .mySlides{
     height: 70vh;
-    width: 80vw;
+    width: 90vw;
+
  }
  .carousel-cell{
-     margin: 0 1em;
+    margin: 0 1em;
+    /* display: none; */
  }
 
  @media only screen and (max-width: 768px){
