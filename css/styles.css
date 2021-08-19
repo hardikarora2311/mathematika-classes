@@ -250,12 +250,12 @@ body {
 
 
  .slider{
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
  .mySlides{
     height: 70vh;
-    width: 90vw;
+    width: 95vw;
 
  }
  .carousel-cell{
@@ -266,7 +266,7 @@ body {
  @media only screen and (max-width: 768px){
      .mySlides{
         height: 50vh;
-        width: 90vw;
+        width: 100vw;
      }
  }
 
@@ -283,6 +283,10 @@ body {
     flex: 1;
     border-radius: 0.5em;
     box-shadow:  0 0 15px 0 rgb(0 0 0 / 20%);
+}
+
+.index{
+    margin: 5em auto;
 }
 
 .about-text{
