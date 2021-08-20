@@ -307,7 +307,7 @@ body {
 .about-text p{
     color: #0c1a46;
     letter-spacing: 1.5px;
-    font-size:large;
+    font-size: larger;
     text-align: justify;
 }
 
