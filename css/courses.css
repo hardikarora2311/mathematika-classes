@@ -79,6 +79,10 @@
 
 }
 
+.flip-card-front{
+    /* display: none; */
+}
+
 .flip-card-back{
     transform: rotateY(180deg);
     background: var(--primary-color);
@@ -95,6 +99,26 @@
     text-align: center;
     font-weight: 600;
 }
+
+
+.batch-info{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.timings{
+    color: white;
+    font-weight: bolder;
+    margin: 1em 0.2em;
+    margin-top: 0;
+}
+.note{
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.3em;
+} 
+
 
 .footer{
     margin-top: 2em;
