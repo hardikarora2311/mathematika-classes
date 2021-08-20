@@ -79,10 +79,6 @@
 
 }
 
-.flip-card-front{
-    /* display: none; */
-}
-
 .flip-card-back{
     transform: rotateY(180deg);
     background: var(--primary-color);
