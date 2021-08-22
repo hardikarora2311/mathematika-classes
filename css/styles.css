@@ -175,8 +175,8 @@ body {
 }
 
 .link:hover, .link-active{
-    /* border: 2px solid red; */
     /* background-color: #212220; */
+    /* padding: 1.3em 1.5em; */
     font-weight: bolder;
 }
 
@@ -265,7 +265,7 @@ body {
 
  @media only screen and (max-width: 768px){
      .mySlides{
-        height: 50vh;
+        height: 40vh;
         width: 100vw;
      }
  }
@@ -418,7 +418,7 @@ body {
 .result-text{
     position: relative;
     margin-left: 7em;
-    margin-top: 0.5em;
+    margin-top: 0;
 }
 
 .vl-black{
@@ -441,23 +441,19 @@ body {
     background-color: var(--gray-background);
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 220px;
     align-items: center;
+    justify-content: center;
     margin: 1em;
     font-weight: bold;
     border-radius: 0.5em;
-    box-shadow:  0 0 20px 0 rgb(0 0 0 / 90%);
-}
-.people hr{
-    background-color: black;
-    width: 80%;
-    height: 1.5px;
+    box-shadow:  0 0 16px 0 rgb(0 0 0 / 80%);
 }
 
 .people-pic{
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
 }
 
 @media only screen and (max-width: 768px){
@@ -479,7 +475,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
-    /* display: contents; */
 }
 
 .test{
