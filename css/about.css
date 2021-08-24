@@ -5,7 +5,7 @@
     height: auto;
     flex-direction: column;
     justify-content: center;
-    box-shadow:  0 0 20px 0 rgb(0 0 0 / 40%);
+    /* box-shadow:  0 0 20px 0 rgb(0 0 0 / 40%); */
 }
 
 .about-pic{
