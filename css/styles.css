@@ -306,7 +306,7 @@ body {
 }
 .about-text p{
     color: #0c1a46;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1rem;
     font-size: larger;
     /* text-align: justify; */
     word-spacing: 0.6em;
@@ -380,6 +380,10 @@ body {
         justify-content: flex-start;
         box-shadow:  0 0 15px 0 rgb(0 0 0 / 15%);
 
+    }
+
+    .about-text p{
+        font-size: medium;
     }
     .about-courses{
         display: flex;
