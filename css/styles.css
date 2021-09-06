@@ -45,7 +45,7 @@ body {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     color: var(--primary-color);
     /* background-color: rgb(168, 168, 168); */
     /* height: 55px;
@@ -75,8 +75,8 @@ body {
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-right: 0.5em;
 }
 
@@ -130,6 +130,17 @@ body {
     .contact{
         margin-right: 0;
         padding: 2em 0;
+    }
+    .brand{
+        padding: 2em 0 0.5em 0;
+        flex-direction: column;
+    }
+    .brand div{
+        text-align: center;
+        font-size: 21px;
+    }
+    .branding{
+        justify-content: space-around;
     }
 }
 
@@ -241,6 +252,12 @@ body {
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .link{
+        margin: 0;
     }
 }
 
