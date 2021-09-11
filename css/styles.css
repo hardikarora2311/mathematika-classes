@@ -538,10 +538,6 @@ body {
     flex: 1;
 }
 
-.footer-about p{
-    text-align: center;
-}
-
 .copyright{
     color: white;
     background-color: #1d1d1d;
@@ -601,6 +597,9 @@ body {
     .footer-logo{
         font-size: 20px;
         margin: auto;
+    }
+    .footer-about p{
+        text-align: center;
     }
 }
 
