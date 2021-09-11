@@ -538,6 +538,10 @@ body {
     flex: 1;
 }
 
+.footer-about p{
+    text-align: center;
+}
+
 .copyright{
     color: white;
     background-color: #1d1d1d;
