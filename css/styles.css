@@ -552,7 +552,7 @@ body {
 .footer-logo{
     display: flex;
     align-items: center;
-    color: var(--primary-color);
+    color: #393185;
     font-weight: bold;
     font-size: 28px;
 }
