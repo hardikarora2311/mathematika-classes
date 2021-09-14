@@ -62,7 +62,13 @@
 
     .info{
         font-size: medium;
+        text-align: center;
     }
+    .sir-image{
+        float:none;
+        margin-right: 0;
+    }
+    
 
 
 
