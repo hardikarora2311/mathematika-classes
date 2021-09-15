@@ -588,6 +588,9 @@ body {
     .address-info, .contact-info{
         text-align: center;
     }
+    .contact-info{
+        margin: 3em 0 3em;
+    }
     .logo{
         width: 60px;
         height: 60px;
