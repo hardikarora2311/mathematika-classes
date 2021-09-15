@@ -463,7 +463,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 210px;
-    height: 220px;
+    height: 230px;
     align-items: center;
     justify-content: center;
     margin: 1em;
@@ -475,6 +475,9 @@ body {
 .people-pic{
     height: 100px;
     width: 100px;
+}
+.name small{
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 768px){
