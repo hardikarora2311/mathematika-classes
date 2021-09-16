@@ -544,12 +544,24 @@ body {
 .copyright{
     color: white;
     background-color: #1d1d1d;
-    height: 3em;
+    height: 3.8em;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 1em;
+}
+
+
+.copyright a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    text-decoration: dotted;
+}
+.copyright a:hover{
+    text-decoration: underline;
 }
 
 .footer-logo{
