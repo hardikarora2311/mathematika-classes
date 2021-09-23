@@ -272,8 +272,8 @@ body {
 }
 
  .mySlides{
-    height: 75vh;
-    width: 95vw;
+    height: 70vh;
+    width: 80vw;
     box-shadow:  0 0 15px 0 rgb(0 0 0 / 18%);
 
 
@@ -285,7 +285,7 @@ body {
 
  @media only screen and (max-width: 768px){
      .mySlides{
-        height: 40vh;
+        height: 38vh;
         width: 100vw;
         box-shadow: none;
      }
