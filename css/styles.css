@@ -268,11 +268,12 @@ body {
 
  .slider{
     margin-bottom: 3em;
+    background-color:#ececec;
 }
 
  .mySlides{
     height: 75vh;
-    width: 100vw;
+    width: 95vw;
 
  }
  .carousel-cell{
