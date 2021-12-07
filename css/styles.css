@@ -310,6 +310,45 @@ body {
     margin: 5em auto;
 }
 
+.app{
+    justify-content: space-evenly;
+}
+.app-img{
+    margin: 1em;
+    width: 200px;
+    border-radius: 0.4em;
+}
+.app-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#app-head{
+    font-size: 32px;
+    margin-left: 0;
+}
+
+#app-text{
+    letter-spacing: normal;
+    font-size: larger;
+    word-spacing: normal;
+}
+
+.app-link{
+    background-color: #212220;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    border-radius:  1em;
+    padding: 1em;
+    text-align: center;
+}
+.app-link:hover{
+    /* box-shadow:  0 0 16px 0 rgb(0 0 0 / 30%); */
+    background-color: var(--primary-color);
+}
+
 .about-text{
     position: relative;
     display: flex;
@@ -426,6 +465,16 @@ body {
     .about-courses div:nth-child(4){
         background-color: #212220;
     }
+
+    .app, .app-about{
+        align-items: center;
+    }
+
+    #app-head, #app-text{
+        text-align: center;
+    }
+
+
 }
 
 
